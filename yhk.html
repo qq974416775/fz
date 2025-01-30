@@ -1,0 +1,84 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>银行卡</title>
+
+
+<div style="text-align:center;">
+<a href="index.html">首页 &nbsp <a href="zhmm.html">账号MM &nbsp<a href="sfz.html">身份证 &nbsp <a href="yhk.html">银行卡
+</div>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<script src="clipboard.min.js"></script>
+<style>
+.demo{width:360px;margin:5px auto 10px auto}
+.btn {
+	text-transform: uppercase;
+	background: rgb(0, 0, 0); color: white;
+	padding: 10px; border-radius: 5px;
+	cursor: pointer;margin:10px auto;width:100px;text-align:center;
+}
+.btn:hover {background: rgb(0, 75, 0);}
+input,textarea{padding:10px; border:1px solid #d3d3d3;width:220px}
+textarea{height:160px}
+
+</style>
+
+</head>
+
+<body>
+ 
+</head>
+
+<body>
+ 
+<div id="main">
+	 
+	<div class="demo">
+		<input id="a1" value="6230520240047154778">
+
+		<button class="btn" data-clipboard-target="#a1" aria-label="复制成功！">农业银行</button>
+		
+	<input id="a2" value="6222623130005015629">
+
+		<button class="btn" data-clipboard-target="#a2" aria-label="复制成功！">交通银行</button>
+		
+<input id="a4" value="6216658000001415018">
+		<button class="btn" data-clipboard-target="#a4" aria-label="复制成功！">中国银行</button>
+	<input id="a5" value="6222031204002207863">
+
+		<button class="btn" data-clipboard-target="#a5" aria-label="复制成功！">工商银行</button>
+
+<input id="a6" value="6231700190085798699">
+
+		<button class="btn" data-clipboard-target="#a6" aria-label="复制成功！">青岛银行</button>
+
+
+
+
+</div>
+
+<script>
+//new Clipboard('.btn');
+var clipboard = new Clipboard('.btn');
+
+clipboard.on('success', function(e) {
+	var msg = e.trigger.getAttribute('aria-label');
+	alert(msg);
+    console.info('Action:', e.action);
+    console.info('Text:', e.text);
+    console.info('Trigger:', e.trigger);
+
+    e.clearSelection();
+});
+</script>
+
+
+
+</body>
+</html>
+	

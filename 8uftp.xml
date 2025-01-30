@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<8uftp>
+<Settings>
+<Item name="Tool Normal Start" type="numeric">0</Item>
+<Item name="Last Server Host" type="string">s2.3vftp.vip</Item>
+<Item name="Last Server Port" type="numeric">3512</Item>
+<Item name="Last Server User" type="string">yanlei1996</Item>
+<Item name="Last Server dont save pass" type="numeric">0</Item>
+<Item name="Last server name" type="string"></Item>
+<Item name="Last Server Pass" type="string">063057036127003001007001003</Item>
+<Item name="Last Server Firewall Bypass" type="numeric">0</Item>
+<Item name="Last Server Path" type="string">256 0 7 wwwroot 2 fz</Item>
+<Item name="Last Server Type" type="numeric">256</Item>
+<Item name="Last Server transfer mode" type="numeric">0</Item>
+<Item name="Default Folder" type="string">C:\Users\Administrator\Desktop\</Item>
+<Item name="Last Window Size" type="string">0 238 116 1211 732</Item>
+<Item name="Last Splitter Pos" type="string">360 107 477 469 476</Item>
+<Item name="Pasv" type="numeric">1</Item>
+</Settings>
+<Sites>
+<Site Name="ÐÂ FTP Õ¾µã" Host="s2.3vcdn.vip" Port="21" User="yanlei1996" RemoteDir="" LocalDir="" Pass="063057036127003001007001003" Logontype="1" FWBypass="0" DontSavePass="0" ServerType="0" PasvMode="1" TimeZoneOffset="0" TimeZoneOffsetMinutes="0" Comments="" DefaultSite="0"/>
+</Sites>
+<RecentServers>
+<Server Host="s2.3vcdn.vip" Port="21" User="yanlei1996" Pass="063057036127003001007001003" FirewallBypass="0" DontRememberPass="0" ServerType="256" Path="" PasvMode="0" TimeZoneOffset="0"/>
+<Server Host="s2.3vcdn.vip" Port="3512" User="yanlei1996" Pass="063057036127003001007001003" FirewallBypass="0" DontRememberPass="0" ServerType="256" Path="" PasvMode="0" TimeZoneOffset="0"/>
+<Server Host="s2.3vftp.vip" Port="3512" User="yanlei1996" Pass="063057036127003001007001003" FirewallBypass="0" DontRememberPass="0" ServerType="256" Path="" PasvMode="0" TimeZoneOffset="0"/>
+<Server Host="s2.3vftp.vip" Port="21" User="yanlei1996" Pass="063057036127003001007001003" FirewallBypass="0" DontRememberPass="0" ServerType="256" Path="" PasvMode="0" TimeZoneOffset="0"/>
+</RecentServers>
+<TransferQueue/>
+</8uftp>
